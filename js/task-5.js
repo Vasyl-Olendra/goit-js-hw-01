@@ -24,6 +24,8 @@ switch (normalizedInput) {
 
   default:
     alert('В вашей стране доставка не доступна');
-}
 
-console.log(`Доставка в ${normalizedInput} будет стоить ${cost} кредитов`);
+}
+if (cost) {
+console.log(`Доставка в ${normalizedInput} будет стоить ${cost} кредитов`); 
+}
